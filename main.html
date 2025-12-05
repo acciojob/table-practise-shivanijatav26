@@ -1,16 +1,58 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+<style>
+    table, th, td, tr {
+        border: 1px solid black;     /* 1px काला बॉर्डर */
+        border-collapse: collapse;   /* बॉर्डर एक जैसा दिखे */
+    }
+    table {
+        background-color: yellow;    /* टेबल बैकग्राउंड पीला */
+        width: 50%;
+        margin: 20px auto;
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
+    caption {
+        font-size: 22px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+</style>
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+<table>
+    <caption>Student Details</caption>
+
+    <thead>
+        <tr>
+            <th>NAME</th>
+            <th>AGE</th>
+            <th>BRANCH</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Riya</td>
+            <td>20</td>
+            <td>CSE</td>
+        </tr>
+        <tr>
+            <td>Aman</td>
+            <td>21</td>
+            <td>ECE</td>
+        </tr>
+        <tr>
+            <td>Priya</td>
+            <td>19</td>
+            <td>ME</td>
+        </tr>
+    </tbody>
+
+</table>
 
 </body>
-
 </html>

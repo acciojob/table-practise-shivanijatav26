@@ -1,1 +1,21 @@
-/*  your css code here. If applicable */
+/* Table, th, td, tr में border */
+table, th, td, tr {
+    border: 1px solid black;   /* 1px काला बॉर्डर */
+    border-collapse: collapse; /* borders एकदम clean दिखें */
+}
+
+/* Table का background yellow */
+table {
+    background-color: yellow;
+    width: 60%;          /* table width */
+    margin: 20px auto;   /* center table */
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Table caption style */
+caption {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
